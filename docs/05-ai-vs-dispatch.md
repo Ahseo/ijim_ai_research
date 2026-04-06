@@ -53,7 +53,7 @@
 |------|-----------|----------|-----------------|
 | Chen et al. (2024) | 관측 프로필 기반 우선 배정 | "Algorithmic assignment" (AI 미사용) | 운전자 헌신도 점수 기반 규칙적 우선 |
 | Mao et al. (2025) | 데이터 기반 디스패치 최적화 | "Order dispatch algorithms" (AI 미사용) | 알려진 목적함수 최적화, 라이더 선호 학습 안 함 |
-| Knight et al. (2024) | ML 기반 매장 레이아웃 매핑 | "AI-enabled technology" | ML 구성요소(레이아웃 학습)를 명시적으로 특정 |
+| Knight et al. (2024) | ML 기반 매장 레이아웃 매핑 | "AI-enabled technology" / ISR판은 "Skill Level" 사용 | ML 구성요소를 명시. 단, ISR 저널판은 제목에 "skill level" 명시 |
 | Mohlmann et al. (2021) | Uber의 매칭 + 통제 | "AI-based algorithms" (모호) | 질적 연구, 기술적 정의 없음 |
 | Brynjolfsson et al. (2025) | 대규모 언어 모형 | 명백한 AI | 다른 도메인 (인지 과업) |
 

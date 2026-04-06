@@ -26,7 +26,7 @@
 | Brynjolfsson et al. (2025, QJE) | 사전 기간 처리건/시간 | "worker ability" / "생산성 분위" |
 | Noy & Zhang (2023, Science) | 사전 처리 품질 점수 | "중위 이하/이상" 수행자 |
 | Dell'Acqua et al. (2023, HBS) | 사전 실험 성과 | "performance level" |
-| Knight et al. (2024, EC) | 사전 기간 피킹 속도 | **"productivity level"** |
+| Knight et al. (2024, ISR) | 사전 기간 피킹 속도 | **"skill level"** (ISR판 제목에 명시) |
 
 **패턴**: 최상위 저널은 무조건적 "skill" 사용을 회피. "ability", "productivity level", 또는 분포 내 위치 기술을 사용.
 

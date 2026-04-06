@@ -17,7 +17,7 @@
         "proficiency 3분위가 분류됨",
         "PSM 매칭 표본이 생성됨"
       ],
-      "passes": false
+      "passes": true
     },
     {
       "id": "US-002",
@@ -31,7 +31,7 @@
         "재현 결과가 output/tables/에 저장됨",
         "불일치 있으면 원인 기록됨"
       ],
-      "passes": false
+      "passes": true
     },
     {
       "id": "US-003",
@@ -46,7 +46,7 @@
         "Event-study 플롯이 output/figures/에 저장됨",
         "결과 해석 1문단이 output/interpretation/에 저장됨"
       ],
-      "passes": false
+      "passes": true
     },
     {
       "id": "US-004",
@@ -59,7 +59,7 @@
         "δ* 값이 산출되어 output/tables/에 저장됨",
         "δ* 해석 (>1이면 강건, 아니면 주의) 기록됨"
       ],
-      "passes": false
+      "passes": true
     },
     {
       "id": "US-005",
@@ -73,7 +73,7 @@
         "용량-반응 플롯이 output/figures/에 저장됨",
         "단조성 여부 판단 기록됨"
       ],
-      "passes": false
+      "passes": true
     },
     {
       "id": "US-006",
@@ -87,7 +87,7 @@
         "결과가 전체 표본과 일관적인지 판단 기록됨",
         "결과가 output/tables/에 저장됨"
       ],
-      "passes": false
+      "passes": true
     },
     {
       "id": "US-007",
@@ -100,7 +100,7 @@
         "Gini/Theil이 도입 전/후, 채택/비채택별로 산출됨",
         "결과 표+그림이 output/에 저장됨"
       ],
-      "passes": false
+      "passes": true
     },
     {
       "id": "US-008",
@@ -113,7 +113,7 @@
         "주차별 처리 효과 표가 output/tables/에 저장됨",
         "학습 효과 유무 판단 기록됨"
       ],
-      "passes": false
+      "passes": true
     },
     {
       "id": "US-009",
@@ -127,7 +127,7 @@
         "오류 발견 시 docs/ 수정됨",
         "검증 결과가 docs/11-fact-check.md로 저장됨"
       ],
-      "passes": false
+      "passes": true
     },
     {
       "id": "US-010",
@@ -140,7 +140,7 @@
         "각 인용: 저자, 연도, 저널, 핵심 발견, 논문 내 삽입 위치 명시",
         "docs/12-new-references.md로 저장됨"
       ],
-      "passes": false
+      "passes": true
     },
     {
       "id": "US-011",
@@ -154,7 +154,7 @@
         "분석 결과 참조가 output/ 파일과 매칭됨",
         "문헌 근거가 docs/11, docs/12와 매칭됨"
       ],
-      "passes": false
+      "passes": true
     },
     {
       "id": "US-012",
@@ -170,7 +170,7 @@
         "주요 변경 요약표 포함됨",
         "분석 결과 참조가 정확함"
       ],
-      "passes": false
+      "passes": true
     }
   ]
 }
