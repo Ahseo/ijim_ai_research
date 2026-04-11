@@ -78,4 +78,4 @@ Rscript code/03_oster_bounds.R       # Oster bounds
 |--------|------|------|------|
 | `riders_full.csv` | recommendation_data_20201221.csv (부산, 2019-04~2020-11) | 2.3GB | [Drive](https://drive.google.com/file/d/19FE0hJRydMI_y61OhaB4ehXlWlGiwvO4/view?usp=sharing) |
 | `new_data.csv` | recommendation_data_2023.csv (부산 외, 2020-07~2021-01) | 1.75GB | [Drive](https://drive.google.com/file/d/19-U33XcXVPfKHEyEz_p-6ZP03wz5kTR2/view?usp=sharing) |
-| (미보유) | recommendation_data_busan_exclusive_dec_feb.csv | - | 부산 12-2월 확장 시 필요 |
+| `recommendation_data_busan_exclusive_dec_feb.csv` | - | 부산 12-2월 확장 시 필요 | https://drive.google.com/file/d/1MmY90E4AQcK47lT4OvoHCxrChtIUlBDo/view?usp=drive_link
