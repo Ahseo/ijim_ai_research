@@ -39,16 +39,16 @@ day_link <- day[, .(
   total_labor,
   share_idled
 )]
-setkey(day_link, rider_id, ymd)
 setkey(orders, rider_id, ymd)
-orders <- day_link[orders]
+setkey(day_link, rider_id, ymd)
+orders <- orders[day_link]
 
 cat("[2/4] Aggregate daily customer outcomes by rider-day...\n")
 daily_link <- orders[, .(
   avg_wait_all = mean(waiting_min, na.rm = TRUE),
   avg_wait_single = mean(waiting_min[is_single == 1], na.rm = TRUE),
   avg_wait_stacked = mean(waiting_min[is_single == 0], na.rm = TRUE),
-  avg_distance = mean(distance, na.rm = TRUE),
+  avg_distance = mean(distorigintodest, na.rm = TRUE),
   share_single = mean(is_single, na.rm = TRUE),
   n_orders = .N
 ), by = .(rider_id, management_partner_id, ymd, station_date, orders_per_hour,

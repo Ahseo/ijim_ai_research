@@ -173,6 +173,49 @@ If you want the full planning history:
   - Busan Dec-Feb extension file
   - treat any claims that require longer post-period coverage as pending until this file is added
 
+## Data Processing
+
+`data/processed/` is a reproducible local build artifact generated from the raw data in `data/`.
+
+- It is **not** source data.
+- It should be recreated locally before running downstream analysis scripts.
+- It is excluded from Git because several generated files exceed GitHub's size limits.
+
+### Default preprocessing command
+
+```bash
+Rscript code/00_data_preparation.R
+```
+
+This command rebuilds the full analysis inputs used by the current workflow:
+
+- `data/processed/data_day_full.csv`
+- `data/processed/data_day_matched.csv`
+- `data/processed/data_shift_full.csv`
+- `data/processed/data_shift_matched.csv`
+- `data/processed/orders_matched.csv`
+- `data/processed/orders_busan_extended.csv`
+- `data/processed/matched_riders.csv`
+- `data/processed/pre_matching_vars.csv`
+- `data/processed/proficiency.csv`
+
+### Alternate preprocessing path
+
+`code/00_data_preparation_v2.R` exists as an alternate preprocessing script. Use it only when you intentionally want the earlier merged-data path with `riders_full.csv` and `new_data.csv`. The current regenerated `data/processed/` directory was rebuilt with:
+
+```bash
+Rscript code/00_data_preparation.R
+```
+
+### Practical rule before analysis
+
+Before running `code/01_reproduce_results.R` through `code/09_submission_diagnostics.R`, confirm:
+
+1. `data/riders_full.csv` exists
+2. `data/rider_info.csv` exists
+3. `data/new_data.csv` exists if you plan to run the extended event-study
+4. `Rscript code/00_data_preparation.R` has completed successfully
+
 ## Reproducibility
 
 ### R packages
